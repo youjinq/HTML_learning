@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welcome to the most extraordinary hotel in Boton M">
+    <meta name="keywords" content="hotel,boston,hotel,new england hotel">
+    <title> Hotel | Welcome</title>
+    <script src="https://kit.fontawesome.com/af5fa1eba9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <navbar id="navbar">
+                <h1 class="navbar-header">HBT</h1>
+                <ul class="navbar-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </navbar>
+        </div>
+    </header>
+
+    <div class="showcase">
+        <div class="container">
+            <div class="showcase-content">
+                <h1><span>Enjoy</span> your stay</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, explicabo quos. Nihil numquam culpa
+                    aliquid eveniet!</p>
+                <a class="btn" href="about.html">About Our Hotel</a>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="home-info">
+        <div class="info-img"></div>
+        <div class="info-content">
+            <h2><span class="text-primary">The History</span> of Our Hotel</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae ipsa deleniti qui repellat rerum
+                excepturi et tempora velit incidunt? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos cum
+                id possimus odit quia necessitatibus sunt ea expedita fugit. Architecto!</p>
+            <a href="/" class="btn btn-light">Read More</a>
+        </div>
+
+    </section>
+
+    <section class="features">
+        <div class="box">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3>Great Location</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem accusamus laborum libero velit alias
+                provident quisquam magnam, sit incidunt tenetur?</p>
+        </div>
+        <div class="box bg-dark">
+            <i class="fas fa-utensils fa-3x"></i>
+            <h3>Free Meals</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem accusamus laborum libero velit alias
+                provident quisquam magnam, sit incidunt tenetur?</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-dumbbell fa-3x"></i>
+            <h3>Fitness Room</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem accusamus laborum libero velit alias
+                provident quisquam magnam, sit incidunt tenetur?</p>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>Hotel BT &copy; 2019 All RIGHT RESERVED</p>
+    </footer>
+
+    <script type="text/javascript" >
+        window.addEventListener('scroll', function(){
+            const header= document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY>0)
+
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+$parimary-color: rgba(13,110,139,0.75);
+$overlay-color: rgba(24,39,51,0.85);
+$menu-speed: 0.75s;
+
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+    overflow:hidden;
+    padding: 0 3rem;
+}
+
+.showcase{
+    background-color: $parimary-color;
+    color: #fff;
+    height: 100vh;
+    position: relative;
+
+    &:before{
+        content: "";
+        background: url('img/1.jpeg') no-repeat center center/cover;
+        position: absolute;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+
+    }
+
+    .showcase-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+    
+    h1{
+        font-size: 4rem;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+
+
+
+    .btn{
+        display: inline-block;
+        border: none;
+        background-color: $parimary-color;
+        color: #fff;
+        text-decoration: none;
+        padding: 0.75rem 1.5rem ;
+        margin-top: 1rem;
+        transition: opacity 0.5s ease-in;
+
+
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+}
+
+

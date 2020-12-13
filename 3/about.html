@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welcome to the most extraordinary hotel in Boton M">
+    <meta name="keywords" content="hotel,boston,hotel,new england hotel">
+    <title> Hotel | AboutUs</title>
+    <script src="https://kit.fontawesome.com/af5fa1eba9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <navbar id="navbar">
+                <h1 class="navbar-header">HBT</h1>
+                <ul class="navbar-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </navbar>
+        </div>
+    </header>
+
+
+    <section class="about-info">
+        <div class="container">
+            <div class="wrapper">
+                <div class="info-left">
+                    <h1> <span>About</span> Hotel BT</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias odit totam deleniti soluta.
+                        Officia rerum maxime illum ab dicta quasi!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vero quas inventore illo ut
+                        ullam cumque rem error accusamus aliquam?</p>
+                </div>
+                <div class="info-right">
+                    <img src="image_resources/photo-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="testimonials">
+        <div class="container">
+            <h2 class="l-heading">What our Guests say</h2>
+            <div class="testiomonial">
+                <img src="image_resources/person-1.jpg" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et accusantium sapiente rerum beatae rem praesentium repellendus, quaerat in quibusdam quia itaque molestias repellat, quos nesciunt similique minima perspiciatis labore assumenda.</p>
+            </div>
+
+            <div class="testiomonial">
+                <img src="image_resources/person-2.jpg" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et accusantium sapiente rerum beatae rem praesentium repellendus, quaerat in quibusdam quia itaque molestias repellat, quos nesciunt similique minima perspiciatis labore assumenda.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="main-footer">
+        <p>Hotel BT &copy; 2019 All RIGHT RESERVED</p>
+    </footer>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0)
+
+        })
+    </script>
+
+</body>
+
+</html>
