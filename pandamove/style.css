@@ -1,0 +1,43 @@
+body{
+    background-color: orange;
+}
+
+
+#road{
+    border-bottom: 7px dashed black;
+}
+
+
+#runner{
+    background: url(img/panda_colour.png);
+    width: 250px;
+    height: 330px;
+    animation: walk 1s steps(12) infinite, forward 5s linear alternate-reverse
+}
+
+@keyframes walk{
+    0%{
+        background-position: 0;
+    } 
+
+    100%{
+        background-position: 30000px;
+
+    }
+
+}
+
+@keyframes forward{
+    0%{
+        transform: translateX(0);
+    } 
+
+    100%{
+        transform: translateX(1100px);
+
+
+    }
+
+}
+
+
